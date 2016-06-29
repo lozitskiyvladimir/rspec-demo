@@ -18,7 +18,7 @@ def power_up
 end
 
 def hero_info
-  puts "#{@name} has a  health of #{@health}"
+  "#{@name} has a health of #{@health}"
 end
 end
 

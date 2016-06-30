@@ -17,6 +17,6 @@ attr_reader :fuel
   end
 end
 
-car = Car.new
-car.add_fuel 10
-puts "Range is #{car.range}"  # I can ride ... mile
+# car = Car.new
+# car.add_fuel 10
+# puts "Range is #{car.range}"  # I can ride ... mile

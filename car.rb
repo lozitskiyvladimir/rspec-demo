@@ -13,7 +13,7 @@ attr_reader :fuel
 
 #How many i can ride
   def range
-    0
+    @fuel * MILES_PER_GALLON
   end
 end
 
